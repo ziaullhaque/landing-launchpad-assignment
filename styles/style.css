@@ -20,6 +20,7 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: #f5f8ff;
 }
 .btn-primary {
   padding: 15px 36px;
@@ -29,6 +30,11 @@ body {
   font-size: 16px;
   background-color: #4e47ff;
   color: #ffffff;
+  transition: all 0.8s;
+}
+.btn-primary:hover {
+  transform: scale(1.1);
+  background-color: #0d92f7;
 }
 /*  header section start */
 a,
@@ -39,7 +45,7 @@ a,
 .nav-section {
   display: flex;
   justify-content: space-between;
-  margin: 0px 35px 0 200px;
+  margin: 30px 35px 0 200px;
   align-items: center;
 }
 .logo {
@@ -101,10 +107,10 @@ header {
   padding-bottom: 15px;
 }
 .action-part-image img {
-  border-radius: 20px;
+  border-radius: 50px;
 }
 .action-part-image {
-  padding-right: 220px;
+  padding-right: 210px;
 }
 
 /* action section end */
@@ -114,6 +120,8 @@ header {
   margin-right: 350px;
   text-align: center;
   border-radius: 24px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 .users {
   justify-content: space-around;
@@ -127,7 +135,7 @@ header {
   font-size: 38px;
   font-weight: bold;
   font-family: "Raleway", sans-serif;
-  padding-top: 60px;
+  padding-top: 50px;
 }
 
 .fifty {
@@ -135,11 +143,185 @@ header {
   font-size: 80px;
   font-weight: bold;
   font-family: "Inter", sans-serif;
+  padding-top: 30px;
 }
 .active {
   font-size: 20px;
   font-family: "Inter", sans-serif;
   color: rgba(0, 0, 0, 0.5);
+  padding-top: 10px;
+  padding-bottom: 60px;
+}
+
+/* .feedback-section {
+    text-align: center;
+  } */
+.feedback-section {
+  padding-top: 50px;
+}
+.feedback-text {
+  font-size: 42px;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+.feedback-persons {
+  display: flex;
+  justify-content: center;
+  /* margin-left: 50px;
+  padding-right: 5px; */
+  /* justify-content: space-around; */
+}
+.skills {
+  border-radius: 20px;
+  padding: 30px 40px;
+  width: 350px;
+  background-color: white;
+  /* box-shadow: 0px, 5px, 15px rgba(0, 0, 0, 0.25); */
+  margin-left: 50px;
+}
+.star-icons {
+  padding-bottom: 35px;
+}
+.skill-title {
+  font-size: 24px;
+  font-weight: 300;
+  font-family: "Raleway", sans-serif;
+  padding-bottom: 10px;
+}
+.skill-description {
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  padding-bottom: 15px;
+}
+.skill-image img {
+  padding-top: 10px;
+  border-radius: 50%;
+}
+.reviewer-name {
+  padding-top: 5px;
+  padding-left: 20px;
+}
+.skills-name {
+  display: flex;
+}
+/* .feedback-persons {
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+.skills {
+  padding: 60px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill-title {
+  font-size: 24px;
+  font-weight: 300;
+  font-family: "Raleway", sans-serif;
+}
+.skill-disciption {
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+} */
+.ready-to-focus {
+  border-radius: 20px;
+  padding: 30px 40px;
+  margin-left: 350px;
+  margin-right: 350px;
+  /* width: 100%; */
+  background-color: white;
+  text-align: center;
+  margin-top: 200px;
+}
+
+.ready-text {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Raleway", sans-serif;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.ready-discription {
+  font-family: "Raleway", sans-serif;
+  padding-bottom: 20px;
+}
+.ger-star {
+  padding-bottom: 20px;
+}
+.ger-started {
+  border-radius: 50px;
+  padding-bottom: 20px;
+}
+/* form section start */
+.form-page {
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+  padding-top: 200px;
+  padding-bottom: 100px;
+}
+.lets-text {
+  font-weight: bold;
+  font-size: 97px;
+  font-family: "Raleway", sans-serif;
+  padding-left: 220px;
+}
+form {
+  padding-right: 220px;
+}
+label {
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+}
+input {
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 200px;
+  border-radius: 10px;
+  border: none;
+  /* box-shadow: 0px, 5px, 15px rgba(0, 0, 0, 0.25); */
+}
+textarea {
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 100px;
+  border-radius: 10px;
+  border: none;
+}
+.get-in {
+  padding-top: 10px;
+}
+.btn-touch {
+  padding: 19px 201px;
+  border-radius: 10px;
+  border: none;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: #4e47ff;
+  color: #ffffff;
+}
+
+/* form section end */
+
+/* footer section start */
+footer {
+  background-color: white;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.footer-section {
+  text-align: center;
+  padding-top: 70px;
+  padding-bottom: 50px;
 }
 
 .footer-logo {
@@ -168,9 +350,4 @@ a {
   padding-left: 10px;
   padding-right: 10px;
 }
-
-.footer-section {
-  text-align: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
+/* footer section end */
